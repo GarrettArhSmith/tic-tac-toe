@@ -1,0 +1,15 @@
+.backBtn {
+  border: none;
+  background: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backBtn:hover {
+  cursor: pointer;
+  background: none;
+  color: black;
+  transform: scale(1.1);
+}
