@@ -16,7 +16,7 @@
 .square:nth-child(9) { border-radius: 0 0 5px 0; }
 
 .square:hover {
-  background-color: #ccc;
+  background-color: #DADDE1;
 }
 
 .self {

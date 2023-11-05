@@ -4,16 +4,18 @@ import s from './Square.module.css'
 import { BsXLg, BsCircle } from 'react-icons/bs'
 
 
-type Props = {};
+type Props = {
+  player: string,
+};
 
 
-export default function Square({}: Props) {
-  const [value, setValue] = useState<null | string>(null);
+export default function Square({player}: Props) {
+  const [value, setValue] = useState<string>(player);
   const [isSelf, setIsSelf] = useState<boolean>(true);
 
   useEffect(() => {
-    setIsSelf(Math.random() < 0.5);
-  }, []);
+    setValue(player);
+  }, [player]);
 
   return (
     <div

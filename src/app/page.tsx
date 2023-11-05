@@ -1,11 +1,13 @@
-import Image from 'next/image'
+import React from 'react'
 import styles from './page.module.css'
-import Board from './components/Board/Board'
+import MenuButton from './components/MenuButton/MenuButton'
 
 export default function Home() {
+
   return (
-    <main className={styles.main}>
-      <Board />
+    <main>
+      <MenuButton hrefPathname='/multiplayer'>Multiplayer</MenuButton>
+      <MenuButton hrefPathname='/singleplayer'>Singleplayer</MenuButton>
     </main>
   )
 }
