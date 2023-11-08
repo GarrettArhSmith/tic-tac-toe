@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <MenuButton hrefPathname='/multiplayer'>Multiplayer</MenuButton>
-      <MenuButton hrefPathname='/singleplayer'>Singleplayer</MenuButton>
+      <MenuButton hrefPathname='/play'>Singleplayer</MenuButton>
     </main>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
-import s from './Local.module.css'
-import Board from '../../components/Board/Board'
+import Board from '@/app/components/Board'
 
 type Props = {}
 
