@@ -27,7 +27,7 @@ export default async function page({}: Props) {
     const { data, error } = await supabase
     .from('lobbies')
     .insert([
-      { positions: [], game_started: false, room_code: roomCode },
+      { game_started: false, room_code: roomCode },
     ])
     .select();
 
